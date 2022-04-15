@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@400;700&display=swap");
+
+body {
+  background-color: hsl(234, 17%, 12%);
+  background-image: url(images/pattern-hills.svg);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  color: hsl(0, 0%, 100%);
+  font-family: "Red Hat Text", sans-serif;
+}
+
+#title {
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 140px 0 35px 0;
+  letter-spacing: 0.2rem;
+  font-size: 1rem;
+}
+
+main {
+  color: hsl(237, 18%, 59%);
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.75rem;
+}
+
+main p {
+  margin: 20px;
+  text-align: center;
+  letter-spacing: 0.1rem;
+}
+
+#days,
+#hours,
+#minutes,
+#seconds {
+  width: 70px;
+  height: 70px;
+  line-height: 4rem;
+  font-weight: 700;
+  font-size: 2.4rem;
+  color: hsl(345, 95%, 68%);
+  background: linear-gradient(
+    180deg,
+    hsla(235, 16%, 14%, 0.8),
+    hsla(236, 21%, 26%, 0.8)
+  );
+  border-radius: 4px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.5px);
+  -webkit-backdrop-filter: blur(5.5px);
+}
+
+.social_icons {
+  margin: 150px 0 40px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social_icons a {
+  margin: 0 20px;
+}
+
+.social_icons a:hover {
+  cursor: pointer;
+}
+
+.social_icons svg:hover path {
+  fill: hsl(345, 95%, 68%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
